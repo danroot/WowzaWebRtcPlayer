@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <video id="player" autoplay playsinline muted controls>
+    </video>
+    <script type="text/javascript" src="https://webrtchacks.github.io/adapter/adapter-latest.js"></script>
+    <script type="text/javascript" src="../dist/wowzawebrtcplayer.bundle.js"></script>
+    <script>
+        // const WowzaWebRtcPlayer = window.WowzaWebRtcPlayer;
+        // import {WebRtcPlayer} from './src/webrtcplayer.js';
+        (function () {
+            var player = new WowzaRtc.WowzaWebRtcPlayer('player');
+            player.start('wss://someserver:443/webrtc-session.json','rtpinternal','052621-hq.stream');
+        })();
+    </script>
+</body>
+
+</html>
