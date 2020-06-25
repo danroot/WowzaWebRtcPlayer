@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Wowza RTC Player",
   "main": "index.js",
-  "unpkg": "dist/WowzaWebRtcPlayer.Bundle.js",
+  "unpkg": "dist/WowzaWebRtcPlayer.browser.js",
   "files": [
     "src",
     "dist/*.js"
