@@ -1,6 +1,6 @@
 {
   "name": "wowzartcplayerjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wowza RTC Player",
   "main": "index.js",
   "unpkg": "dist/WowzaWebRtcPlayer.Bundle.js",
